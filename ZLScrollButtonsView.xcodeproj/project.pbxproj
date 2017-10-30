@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEA5CBDC1FA6CBD9005A92A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA5CBDB1FA6CBD9005A92A6 /* AppDelegate.m */; };
+		BEA5CBDF1FA6CBD9005A92A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA5CBDE1FA6CBD9005A92A6 /* ViewController.m */; };
+		BEA5CBE21FA6CBD9005A92A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA5CBE01FA6CBD9005A92A6 /* Main.storyboard */; };
+		BEA5CBE41FA6CBD9005A92A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA5CBE31FA6CBD9005A92A6 /* Assets.xcassets */; };
+		BEA5CBE71FA6CBD9005A92A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA5CBE51FA6CBD9005A92A6 /* LaunchScreen.storyboard */; };
+		BEA5CBEA1FA6CBD9005A92A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA5CBE91FA6CBD9005A92A6 /* main.m */; };
+		BEA5CBF41FA6CBDB005A92A6 /* ZLScrollButtonsViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA5CBF31FA6CBDB005A92A6 /* ZLScrollButtonsViewTests.m */; };
+		BEA5CBFF1FA6CBDC005A92A6 /* ZLScrollButtonsViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA5CBFE1FA6CBDC005A92A6 /* ZLScrollButtonsViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEA5CBF01FA6CBDB005A92A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA5CBCF1FA6CBD8005A92A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA5CBD61FA6CBD9005A92A6;
+			remoteInfo = ZLScrollButtonsView;
+		};
+		BEA5CBFB1FA6CBDC005A92A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA5CBCF1FA6CBD8005A92A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA5CBD61FA6CBD9005A92A6;
+			remoteInfo = ZLScrollButtonsView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEA5CBD71FA6CBD9005A92A6 /* ZLScrollButtonsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLScrollButtonsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA5CBDA1FA6CBD9005A92A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEA5CBDB1FA6CBD9005A92A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEA5CBDD1FA6CBD9005A92A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BEA5CBDE1FA6CBD9005A92A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEA5CBE11FA6CBD9005A92A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEA5CBE31FA6CBD9005A92A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEA5CBE61FA6CBD9005A92A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEA5CBE81FA6CBD9005A92A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA5CBE91FA6CBD9005A92A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEA5CBEF1FA6CBDB005A92A6 /* ZLScrollButtonsViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLScrollButtonsViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA5CBF31FA6CBDB005A92A6 /* ZLScrollButtonsViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLScrollButtonsViewTests.m; sourceTree = "<group>"; };
+		BEA5CBF51FA6CBDC005A92A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA5CBFA1FA6CBDC005A92A6 /* ZLScrollButtonsViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLScrollButtonsViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA5CBFE1FA6CBDC005A92A6 /* ZLScrollButtonsViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLScrollButtonsViewUITests.m; sourceTree = "<group>"; };
+		BEA5CC001FA6CBDC005A92A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEA5CBD41FA6CBD9005A92A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA5CBEC1FA6CBDB005A92A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA5CBF71FA6CBDC005A92A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEA5CBCE1FA6CBD8005A92A6 = {
+			isa = PBXGroup;
+			children = (
+				BEA5CBD91FA6CBD9005A92A6 /* ZLScrollButtonsView */,
+				BEA5CBF21FA6CBDB005A92A6 /* ZLScrollButtonsViewTests */,
+				BEA5CBFD1FA6CBDC005A92A6 /* ZLScrollButtonsViewUITests */,
+				BEA5CBD81FA6CBD9005A92A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEA5CBD81FA6CBD9005A92A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEA5CBD71FA6CBD9005A92A6 /* ZLScrollButtonsView.app */,
+				BEA5CBEF1FA6CBDB005A92A6 /* ZLScrollButtonsViewTests.xctest */,
+				BEA5CBFA1FA6CBDC005A92A6 /* ZLScrollButtonsViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEA5CBD91FA6CBD9005A92A6 /* ZLScrollButtonsView */ = {
+			isa = PBXGroup;
+			children = (
+				BEA5CBDA1FA6CBD9005A92A6 /* AppDelegate.h */,
+				BEA5CBDB1FA6CBD9005A92A6 /* AppDelegate.m */,
+				BEA5CBDD1FA6CBD9005A92A6 /* ViewController.h */,
+				BEA5CBDE1FA6CBD9005A92A6 /* ViewController.m */,
+				BEA5CBE01FA6CBD9005A92A6 /* Main.storyboard */,
+				BEA5CBE31FA6CBD9005A92A6 /* Assets.xcassets */,
+				BEA5CBE51FA6CBD9005A92A6 /* LaunchScreen.storyboard */,
+				BEA5CBE81FA6CBD9005A92A6 /* Info.plist */,
+				BEA5CBE91FA6CBD9005A92A6 /* main.m */,
+			);
+			path = ZLScrollButtonsView;
+			sourceTree = "<group>";
+		};
+		BEA5CBF21FA6CBDB005A92A6 /* ZLScrollButtonsViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA5CBF31FA6CBDB005A92A6 /* ZLScrollButtonsViewTests.m */,
+				BEA5CBF51FA6CBDC005A92A6 /* Info.plist */,
+			);
+			path = ZLScrollButtonsViewTests;
+			sourceTree = "<group>";
+		};
+		BEA5CBFD1FA6CBDC005A92A6 /* ZLScrollButtonsViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA5CBFE1FA6CBDC005A92A6 /* ZLScrollButtonsViewUITests.m */,
+				BEA5CC001FA6CBDC005A92A6 /* Info.plist */,
+			);
+			path = ZLScrollButtonsViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEA5CBD61FA6CBD9005A92A6 /* ZLScrollButtonsView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA5CC031FA6CBDC005A92A6 /* Build configuration list for PBXNativeTarget "ZLScrollButtonsView" */;
+			buildPhases = (
+				BEA5CBD31FA6CBD9005A92A6 /* Sources */,
+				BEA5CBD41FA6CBD9005A92A6 /* Frameworks */,
+				BEA5CBD51FA6CBD9005A92A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLScrollButtonsView;
+			productName = ZLScrollButtonsView;
+			productReference = BEA5CBD71FA6CBD9005A92A6 /* ZLScrollButtonsView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEA5CBEE1FA6CBDB005A92A6 /* ZLScrollButtonsViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA5CC061FA6CBDC005A92A6 /* Build configuration list for PBXNativeTarget "ZLScrollButtonsViewTests" */;
+			buildPhases = (
+				BEA5CBEB1FA6CBDB005A92A6 /* Sources */,
+				BEA5CBEC1FA6CBDB005A92A6 /* Frameworks */,
+				BEA5CBED1FA6CBDB005A92A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA5CBF11FA6CBDB005A92A6 /* PBXTargetDependency */,
+			);
+			name = ZLScrollButtonsViewTests;
+			productName = ZLScrollButtonsViewTests;
+			productReference = BEA5CBEF1FA6CBDB005A92A6 /* ZLScrollButtonsViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEA5CBF91FA6CBDC005A92A6 /* ZLScrollButtonsViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA5CC091FA6CBDC005A92A6 /* Build configuration list for PBXNativeTarget "ZLScrollButtonsViewUITests" */;
+			buildPhases = (
+				BEA5CBF61FA6CBDC005A92A6 /* Sources */,
+				BEA5CBF71FA6CBDC005A92A6 /* Frameworks */,
+				BEA5CBF81FA6CBDC005A92A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA5CBFC1FA6CBDC005A92A6 /* PBXTargetDependency */,
+			);
+			name = ZLScrollButtonsViewUITests;
+			productName = ZLScrollButtonsViewUITests;
+			productReference = BEA5CBFA1FA6CBDC005A92A6 /* ZLScrollButtonsViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEA5CBCF1FA6CBD8005A92A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "zhaoliang chen";
+				TargetAttributes = {
+					BEA5CBD61FA6CBD9005A92A6 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					BEA5CBEE1FA6CBDB005A92A6 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEA5CBD61FA6CBD9005A92A6;
+					};
+					BEA5CBF91FA6CBDC005A92A6 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEA5CBD61FA6CBD9005A92A6;
+					};
+				};
+			};
+			buildConfigurationList = BEA5CBD21FA6CBD8005A92A6 /* Build configuration list for PBXProject "ZLScrollButtonsView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEA5CBCE1FA6CBD8005A92A6;
+			productRefGroup = BEA5CBD81FA6CBD9005A92A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEA5CBD61FA6CBD9005A92A6 /* ZLScrollButtonsView */,
+				BEA5CBEE1FA6CBDB005A92A6 /* ZLScrollButtonsViewTests */,
+				BEA5CBF91FA6CBDC005A92A6 /* ZLScrollButtonsViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEA5CBD51FA6CBD9005A92A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA5CBE71FA6CBD9005A92A6 /* LaunchScreen.storyboard in Resources */,
+				BEA5CBE41FA6CBD9005A92A6 /* Assets.xcassets in Resources */,
+				BEA5CBE21FA6CBD9005A92A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA5CBED1FA6CBDB005A92A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA5CBF81FA6CBDC005A92A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEA5CBD31FA6CBD9005A92A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA5CBDF1FA6CBD9005A92A6 /* ViewController.m in Sources */,
+				BEA5CBEA1FA6CBD9005A92A6 /* main.m in Sources */,
+				BEA5CBDC1FA6CBD9005A92A6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA5CBEB1FA6CBDB005A92A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA5CBF41FA6CBDB005A92A6 /* ZLScrollButtonsViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA5CBF61FA6CBDC005A92A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA5CBFF1FA6CBDC005A92A6 /* ZLScrollButtonsViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEA5CBF11FA6CBDB005A92A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA5CBD61FA6CBD9005A92A6 /* ZLScrollButtonsView */;
+			targetProxy = BEA5CBF01FA6CBDB005A92A6 /* PBXContainerItemProxy */;
+		};
+		BEA5CBFC1FA6CBDC005A92A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA5CBD61FA6CBD9005A92A6 /* ZLScrollButtonsView */;
+			targetProxy = BEA5CBFB1FA6CBDC005A92A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEA5CBE01FA6CBD9005A92A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA5CBE11FA6CBD9005A92A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEA5CBE51FA6CBD9005A92A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA5CBE61FA6CBD9005A92A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEA5CC011FA6CBDC005A92A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BEA5CC021FA6CBDC005A92A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEA5CC041FA6CBDC005A92A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZLScrollButtonsView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qipai.ZLScrollButtonsView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEA5CC051FA6CBDC005A92A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZLScrollButtonsView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qipai.ZLScrollButtonsView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEA5CC071FA6CBDC005A92A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZLScrollButtonsViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qipai.ZLScrollButtonsViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLScrollButtonsView.app/ZLScrollButtonsView";
+			};
+			name = Debug;
+		};
+		BEA5CC081FA6CBDC005A92A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZLScrollButtonsViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qipai.ZLScrollButtonsViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLScrollButtonsView.app/ZLScrollButtonsView";
+			};
+			name = Release;
+		};
+		BEA5CC0A1FA6CBDC005A92A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZLScrollButtonsViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qipai.ZLScrollButtonsViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZLScrollButtonsView;
+			};
+			name = Debug;
+		};
+		BEA5CC0B1FA6CBDC005A92A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZLScrollButtonsViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qipai.ZLScrollButtonsViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZLScrollButtonsView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEA5CBD21FA6CBD8005A92A6 /* Build configuration list for PBXProject "ZLScrollButtonsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA5CC011FA6CBDC005A92A6 /* Debug */,
+				BEA5CC021FA6CBDC005A92A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA5CC031FA6CBDC005A92A6 /* Build configuration list for PBXNativeTarget "ZLScrollButtonsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA5CC041FA6CBDC005A92A6 /* Debug */,
+				BEA5CC051FA6CBDC005A92A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA5CC061FA6CBDC005A92A6 /* Build configuration list for PBXNativeTarget "ZLScrollButtonsViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA5CC071FA6CBDC005A92A6 /* Debug */,
+				BEA5CC081FA6CBDC005A92A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA5CC091FA6CBDC005A92A6 /* Build configuration list for PBXNativeTarget "ZLScrollButtonsViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA5CC0A1FA6CBDC005A92A6 /* Debug */,
+				BEA5CC0B1FA6CBDC005A92A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEA5CBCF1FA6CBD8005A92A6 /* Project object */;
+}
