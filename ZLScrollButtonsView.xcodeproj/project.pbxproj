@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C741155492F0E58F5A24B36 /* libPods-ZLScrollButtonsView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EFF5899EF4D12E8E1C6F1F /* libPods-ZLScrollButtonsView.a */; };
 		BEA5CBDC1FA6CBD9005A92A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA5CBDB1FA6CBD9005A92A6 /* AppDelegate.m */; };
 		BEA5CBDF1FA6CBD9005A92A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA5CBDE1FA6CBD9005A92A6 /* ViewController.m */; };
 		BEA5CBE21FA6CBD9005A92A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA5CBE01FA6CBD9005A92A6 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		BEA5CBEA1FA6CBD9005A92A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA5CBE91FA6CBD9005A92A6 /* main.m */; };
 		BEA5CBF41FA6CBDB005A92A6 /* ZLScrollButtonsViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA5CBF31FA6CBDB005A92A6 /* ZLScrollButtonsViewTests.m */; };
 		BEA5CBFF1FA6CBDC005A92A6 /* ZLScrollButtonsViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA5CBFE1FA6CBDC005A92A6 /* ZLScrollButtonsViewUITests.m */; };
+		BEA5CC0F1FA6CC9E005A92A6 /* ZLScrollButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA5CC0E1FA6CC9E005A92A6 /* ZLScrollButtonsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01E7DBFD0CA938868A8E5809 /* Pods-ZLScrollButtonsView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLScrollButtonsView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZLScrollButtonsView/Pods-ZLScrollButtonsView.release.xcconfig"; sourceTree = "<group>"; };
+		3E1DC1331611CA8B94F4BA25 /* Pods-ZLScrollButtonsView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLScrollButtonsView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZLScrollButtonsView/Pods-ZLScrollButtonsView.debug.xcconfig"; sourceTree = "<group>"; };
 		BEA5CBD71FA6CBD9005A92A6 /* ZLScrollButtonsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLScrollButtonsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA5CBDA1FA6CBD9005A92A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BEA5CBDB1FA6CBD9005A92A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,9 @@
 		BEA5CBFA1FA6CBDC005A92A6 /* ZLScrollButtonsViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLScrollButtonsViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA5CBFE1FA6CBDC005A92A6 /* ZLScrollButtonsViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLScrollButtonsViewUITests.m; sourceTree = "<group>"; };
 		BEA5CC001FA6CBDC005A92A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA5CC0D1FA6CC9E005A92A6 /* ZLScrollButtonsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLScrollButtonsView.h; sourceTree = "<group>"; };
+		BEA5CC0E1FA6CC9E005A92A6 /* ZLScrollButtonsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLScrollButtonsView.m; sourceTree = "<group>"; };
+		F8EFF5899EF4D12E8E1C6F1F /* libPods-ZLScrollButtonsView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZLScrollButtonsView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C741155492F0E58F5A24B36 /* libPods-ZLScrollButtonsView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E6537B4229F710DBF36A59B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8EFF5899EF4D12E8E1C6F1F /* libPods-ZLScrollButtonsView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		709CEADE2DA85C782ADD1F04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E1DC1331611CA8B94F4BA25 /* Pods-ZLScrollButtonsView.debug.xcconfig */,
+				01E7DBFD0CA938868A8E5809 /* Pods-ZLScrollButtonsView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BEA5CBCE1FA6CBD8005A92A6 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				BEA5CBF21FA6CBDB005A92A6 /* ZLScrollButtonsViewTests */,
 				BEA5CBFD1FA6CBDC005A92A6 /* ZLScrollButtonsViewUITests */,
 				BEA5CBD81FA6CBD9005A92A6 /* Products */,
+				709CEADE2DA85C782ADD1F04 /* Pods */,
+				0E6537B4229F710DBF36A59B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +128,7 @@
 		BEA5CBD91FA6CBD9005A92A6 /* ZLScrollButtonsView */ = {
 			isa = PBXGroup;
 			children = (
+				BEA5CC0C1FA6CC04005A92A6 /* ZLScrollButtonsView */,
 				BEA5CBDA1FA6CBD9005A92A6 /* AppDelegate.h */,
 				BEA5CBDB1FA6CBD9005A92A6 /* AppDelegate.m */,
 				BEA5CBDD1FA6CBD9005A92A6 /* ViewController.h */,
@@ -132,6 +160,15 @@
 			path = ZLScrollButtonsViewUITests;
 			sourceTree = "<group>";
 		};
+		BEA5CC0C1FA6CC04005A92A6 /* ZLScrollButtonsView */ = {
+			isa = PBXGroup;
+			children = (
+				BEA5CC0D1FA6CC9E005A92A6 /* ZLScrollButtonsView.h */,
+				BEA5CC0E1FA6CC9E005A92A6 /* ZLScrollButtonsView.m */,
+			);
+			path = ZLScrollButtonsView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEA5CC031FA6CBDC005A92A6 /* Build configuration list for PBXNativeTarget "ZLScrollButtonsView" */;
 			buildPhases = (
+				3A36CB50095C9D131B98EAA6 /* [CP] Check Pods Manifest.lock */,
 				BEA5CBD31FA6CBD9005A92A6 /* Sources */,
 				BEA5CBD41FA6CBD9005A92A6 /* Frameworks */,
 				BEA5CBD51FA6CBD9005A92A6 /* Resources */,
+				9ACCBD7751318CC71B79D2A6 /* [CP] Embed Pods Frameworks */,
+				B12E579F76674650EC75D084 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +300,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A36CB50095C9D131B98EAA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZLScrollButtonsView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ACCBD7751318CC71B79D2A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZLScrollButtonsView/Pods-ZLScrollButtonsView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B12E579F76674650EC75D084 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZLScrollButtonsView/Pods-ZLScrollButtonsView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BEA5CBD31FA6CBD9005A92A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,6 +359,7 @@
 				BEA5CBDF1FA6CBD9005A92A6 /* ViewController.m in Sources */,
 				BEA5CBEA1FA6CBD9005A92A6 /* main.m in Sources */,
 				BEA5CBDC1FA6CBD9005A92A6 /* AppDelegate.m in Sources */,
+				BEA5CC0F1FA6CC9E005A92A6 /* ZLScrollButtonsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +520,7 @@
 		};
 		BEA5CC041FA6CBDC005A92A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E1DC1331611CA8B94F4BA25 /* Pods-ZLScrollButtonsView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +534,7 @@
 		};
 		BEA5CC051FA6CBDC005A92A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E7DBFD0CA938868A8E5809 /* Pods-ZLScrollButtonsView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
