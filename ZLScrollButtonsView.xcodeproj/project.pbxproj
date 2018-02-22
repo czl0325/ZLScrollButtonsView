@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4C741155492F0E58F5A24B36 /* libPods-ZLScrollButtonsView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EFF5899EF4D12E8E1C6F1F /* libPods-ZLScrollButtonsView.a */; };
+		AD1FA0091FE79C1400882098 /* ZLScrollCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1FA0081FE79C1400882098 /* ZLScrollCollectionViewFlowLayout.m */; };
+		AD76A3781FE919AC002308CE /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD76A3761FE919AC002308CE /* MyCell.m */; };
+		AD89521A1FEA0A7A00DA021A /* ZLHorizontalFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8952191FEA0A7A00DA021A /* ZLHorizontalFlowLayout.m */; };
 		BEA5CBDC1FA6CBD9005A92A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA5CBDB1FA6CBD9005A92A6 /* AppDelegate.m */; };
 		BEA5CBDF1FA6CBD9005A92A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA5CBDE1FA6CBD9005A92A6 /* ViewController.m */; };
 		BEA5CBE21FA6CBD9005A92A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA5CBE01FA6CBD9005A92A6 /* Main.storyboard */; };
@@ -39,6 +42,12 @@
 /* Begin PBXFileReference section */
 		01E7DBFD0CA938868A8E5809 /* Pods-ZLScrollButtonsView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLScrollButtonsView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZLScrollButtonsView/Pods-ZLScrollButtonsView.release.xcconfig"; sourceTree = "<group>"; };
 		3E1DC1331611CA8B94F4BA25 /* Pods-ZLScrollButtonsView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLScrollButtonsView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZLScrollButtonsView/Pods-ZLScrollButtonsView.debug.xcconfig"; sourceTree = "<group>"; };
+		AD1FA0071FE79C1400882098 /* ZLScrollCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLScrollCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		AD1FA0081FE79C1400882098 /* ZLScrollCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLScrollCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		AD76A3751FE919AC002308CE /* MyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		AD76A3761FE919AC002308CE /* MyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		AD8952181FEA0A7A00DA021A /* ZLHorizontalFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLHorizontalFlowLayout.h; sourceTree = "<group>"; };
+		AD8952191FEA0A7A00DA021A /* ZLHorizontalFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLHorizontalFlowLayout.m; sourceTree = "<group>"; };
 		BEA5CBD71FA6CBD9005A92A6 /* ZLScrollButtonsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLScrollButtonsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA5CBDA1FA6CBD9005A92A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BEA5CBDB1FA6CBD9005A92A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -138,6 +147,8 @@
 				BEA5CBE51FA6CBD9005A92A6 /* LaunchScreen.storyboard */,
 				BEA5CBE81FA6CBD9005A92A6 /* Info.plist */,
 				BEA5CBE91FA6CBD9005A92A6 /* main.m */,
+				AD76A3751FE919AC002308CE /* MyCell.h */,
+				AD76A3761FE919AC002308CE /* MyCell.m */,
 			);
 			path = ZLScrollButtonsView;
 			sourceTree = "<group>";
@@ -165,6 +176,10 @@
 			children = (
 				BEA5CC0D1FA6CC9E005A92A6 /* ZLScrollButtonsView.h */,
 				BEA5CC0E1FA6CC9E005A92A6 /* ZLScrollButtonsView.m */,
+				AD1FA0071FE79C1400882098 /* ZLScrollCollectionViewFlowLayout.h */,
+				AD1FA0081FE79C1400882098 /* ZLScrollCollectionViewFlowLayout.m */,
+				AD8952181FEA0A7A00DA021A /* ZLHorizontalFlowLayout.h */,
+				AD8952191FEA0A7A00DA021A /* ZLHorizontalFlowLayout.m */,
 			);
 			path = ZLScrollButtonsView;
 			sourceTree = "<group>";
@@ -357,9 +372,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEA5CBDF1FA6CBD9005A92A6 /* ViewController.m in Sources */,
+				AD89521A1FEA0A7A00DA021A /* ZLHorizontalFlowLayout.m in Sources */,
+				AD1FA0091FE79C1400882098 /* ZLScrollCollectionViewFlowLayout.m in Sources */,
 				BEA5CBEA1FA6CBD9005A92A6 /* main.m in Sources */,
 				BEA5CBDC1FA6CBD9005A92A6 /* AppDelegate.m in Sources */,
 				BEA5CC0F1FA6CC9E005A92A6 /* ZLScrollButtonsView.m in Sources */,
+				AD76A3781FE919AC002308CE /* MyCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +543,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ZLScrollButtonsView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qipai.ZLScrollButtonsView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -539,6 +558,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ZLScrollButtonsView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qipai.ZLScrollButtonsView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
