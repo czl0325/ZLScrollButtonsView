@@ -68,8 +68,6 @@ ZLHorizontalFlowLayoutDelegate>
         [array addObject:@{@"text":[NSString stringWithFormat:@"图标%zd",i+1],@"image":[NSString stringWithFormat:@"image%zd",i+1]}];
     }
     [zlScrollButtonsView reloadScrllButtons:array];
-    
-    
 }
 
 
